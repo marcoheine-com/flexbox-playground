@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flexbox Playground</title>
+  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <h2>Flexbox Playground by Marco K&uuml;hbauch</h2>
+    <p>This small demo shows the different Flexbox properties.<br> Use the following Options to see them in action.</p>
+  </header>
+  <div class="menu">
+  <h2>Flexbox Container</h2>
+    <div class="flexbox-container__select">
+      <div>
+        <label for="Display">Display</label><br>
+        <select name="Display">
+          <option value="flex">flex</option>
+          <option value="inline-flex">inline-flex</option>
+        </select>
+      </div>
+      <div>
+        <label for="Flex-Direction">Flex-Direction</label><br>
+        <select name="Display">
+          <option value="column">column</option>
+          <option value="row">row</option>
+        </select>
+      </div>
+      <div>
+        <label for="justify-content">Justify-Content</label><br>
+        <select name="Justify-Content">
+          <option value="flext-start">flex-start</option>
+          <option value="flex-end">flex-end</option>
+          <option value="center">center</option>
+          <option value="space-between">space-between</option>
+          <option value="space-around">space-around</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="container container-flex">
+    <div class="item-1 item">Item 1</div>
+    <div class="item-2 item">Item 2</div>
+    <div class="item-3 item">Item 3</div>
+    <div class="item-4 item">Item 4</div>
+    <div class="item-5 item">Item 5</div>
+    <div class="item-6 item">Item 6</div>
+  </div>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
